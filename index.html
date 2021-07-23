@@ -15,10 +15,13 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!--google maps-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <!-- tercer party plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <!-- Core theme CSS (incluido Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
 
 </head>
 
@@ -26,7 +29,11 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Instituto Modena</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <div class="container-logo">
+                    <image src="./assets/img/logo-mediano-1.png" frameborder="0"></image>
+                </div>
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,18 +46,18 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#cursos">Carreras y Cursos</a>
                     </li>
-                    <li class="nav-item  btn btn-primary bg-success">
-                        <span> <a class="nav-link js-scroll-trigger insc" href="#inscribite">
-                             Inscribite </a>
+                    <li class="nav-item btn btn-primary bg-success">
+                        <span> <a class="nav-link js-scroll-trigger" href="#inscribite"><div class="insc">
+                             Inscribite </div></a>
                         </span>
                     </li>
                     <li class="nav-item m-0">
-                        <a class="nav-link js-scroll-trigger" href="https://www.instagram.com/institutomodena/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <a class="nav-link js-scroll-trigger" href="https://www.instagram.com/institutomodena/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                           </svg></a>
                     </li>
                     <li class="nav-item m-0">
-                        <a class="nav-link js-scroll-trigger" href="wa.link/ctbsnl">
+                        <a class="nav-link js-scroll-trigger" href="https://wa.link/ctbsnl" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                                 <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
                                 />
@@ -63,7 +70,7 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead h-100">
-        <div class="container mt-3">
+        <div class="container pt-3">
             <div class="row h-100 align-items-center justify-content-center text-center pt-3">
                 <div class="col-lg-10 align-self-end pt-lg-5">
                     <h1 class="text-uppercase text-white font-weight-bold ">Instituto Modena</h1>
@@ -85,41 +92,13 @@
                 <div class="col-lg-8 text-center py-3">
                     <h2 class="text-white mt-5">Sobre nosotros</h2>
                     <hr class="divider light my-2" />
-                    <p class="text-white-50 mb-2">Somos la unica institución del pais con modalidad intensiva, donde vas a potenciar tus habilidades y crecer en entornos de trabajo reales. Modena fue creado para que aprendas las carreras con altas demandas laborales. Sumate a nuestra
+                    <p class="text-white mb-2">Somos la unica institución del pais con modalidad intensiva, donde vas a potenciar tus habilidades y crecer en entornos de trabajo reales. Modena fue creado para que aprendas las carreras con altas demandas laborales. Sumate a nuestra
                         comunidad.
                 </div>
             </div>
-            <u class="text-light">
-                <p class="text-center text-light">Mira las opiniones de nuestros alumnos
-                </p>
-            </u>
         </div>
-        <div class="row pt-2 justify-content-sm-center">
-            <div class="card mx-sm-3">
-                <img src="https://static-cse.canva.com/blob/205054/20-Encuadres-infalibles-Los-15-planos-fotogr%C3%A1ficos-que-debes-dominar.png" class="card-img-top " alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-            <div class="card mx-sm-3">
-                <img src=" https://static-cse.canva.com/blob/205054/20-Encuadres-infalibles-Los-15-planos-fotogr%C3%A1ficos-que-debes-dominar.png " class="card-img-top " alt="... ">
-                <div class="card-body ">
-                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-            <div class="card mx-sm-3 ">
-                <img src="https://static-cse.canva.com/blob/205054/20-Encuadres-infalibles-Los-15-planos-fotogr%C3%A1ficos-que-debes-dominar.png " class="card-img-top " alt="... ">
-                <div class="card-body ">
-                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-        </div>
-
-        <!--div class="text-muted-50 btn btn-outline-secondary">
-            <p class="text-center">Tocá acá para ver las reseñas de los estudiantes</p>
-        </div-->
         <div class="container p-4 text-center">
-            <a class="btn btn-primary btn-xl js-scroll-trigger " href="#cursos ">Ver cursos</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger " href="#cursos">Ver cursos</a>
         </div>
     </section>
     <!-- Beneficios-->
@@ -127,10 +106,10 @@
         <div class="mx-sm-3 px-sm-5">
             <h2 class="text-center mt-0">¿Por qué estudiar en Modena?</h2>
             <hr class="divider my-4" />
-            <div class="row ">
+            <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-5 ">
-                        <svg xmlns="http://www.w3.org/2000/svg " width="75 " height="80 " fill="currentcolor " class="bi bi-journal-check " viewBox="0 0 16 16 ">
+                        <svg xmlns="http://www.w3.org/2000/svg " width="65 " height="80" fill="#f4623a" class="bi bi-journal-check " viewBox="0 0 16 16 ">
                             <path fill-rule="evenodd " d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z "/>
                             <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z "/>
                             <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z "/>
@@ -141,24 +120,41 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5 ">
-                        <i class="fas fa-4x fa-laptop-code text-primary mb-4 "></i>
-                        <h3 class="h4 mb-2 ">MENOS ES MAS</h3>
-                        <p class="text-muted mb-0 ">Los cursos estan pensados para que adquieras todos los conocimientos necesarios en la mecánica y seas un profesional con las cuotas mas bajas.</p>
+                    <div class="mt-5">
+                        <div class="morenless pb-lg-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="70" fill="#f4623a" class="bi bi-dash-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="70" fill="#f4623a" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                          </svg>
+                        </div>
+                        <h3 class="h4 mb-2 ">MENOS ES MÁS</h3>
+                        <p class="text-muted mb-0 ">Los cursos estan pensados para que adquieras todos los conocimientos necesarios en la mecánica teniendo clases práticas desde el primer día</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5 ">
-                        <i class="fas fa-4x fa-globe text-primary mb-4 "></i>
-                        <h3 class="h4 mb-2 "> INSERTAR TITULO </h3>
-                        <p class="text-muted mb-0 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem enim rem, ullam aliquid voluptates sit amet, deserunt esse earum tempora, accusantium officia libero commodi quod quasi sunt aperiam autem.</p>
+                    <div class="mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="70" fill="#f4623a" class="bi bi-clock-history" viewBox="0 0 16 16">
+                            <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"/>
+                            <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/>
+                            <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+                          </svg>
+                        <h3 class="h4 my-3"> Amplia Disponibilidad</h3>
+                        <p class="text-muted mb-0 ">Gracias a los turnos mañana y noche permite a aquellos alumnos que tengan actividades con turnos rotativos puedan alternar las clases según sus disponibilidades. Ademas cuenta con Classroom donde pordes acceder a las clases grabadas
+                            en cualquier momento del día</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5 ">
-                        <i class="fas fa-4x fa-heart text-primary mb-4 "></i>
-                        <h3 class="h4 mb-2 ">INSERTE TITULO</h3>
-                        <p class="text-muted mb-0 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ab consequuntur, enim quibusdam praesentium corrupti magnam laudantium sapiente maiores, vitae et dolor earum at iure tempore facere, quasi aut. Ducimus!
+                    <div class="mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="70" fill="#f4623a" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                            <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                            <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+                          </svg>
+                        <h3 class="h4 my-3">Continuidad profesional</h3>
+                        <p class="text-muted mb-0 ">Si terminas cualquier curso de mecanica podes seguir especializandote en inyeccion y/o electricidad automotriz. Solo en un año y medio termina 3 oficios.
                         </p>
                     </div>
                 </div>
@@ -166,17 +162,17 @@
         </div>
     </section>
     <!-- portfolio cursos-->
-    <div id="cursos" class="py-3">
+    <div id="cursos" class="p-3 mx-lg-5">
         <h2 class="text-center pb-3">Carreras y cursos</h2>
         <hr class="divider my-4" />
-        <div id="portfolio">
-            <div class="row no-gutters m-sm-5">
-                <div class="col-sm-6 p-3">
+        <div id="portfolio mx-lg-5">
+            <div class="row no-gutters m-lg-5">
+                <div class="col-sm-6 p-lg-5">
                     <div class="card ">
                         <div class="card-body ">
                             <h3 class="card-title ">Mecanica de Autos</h3>
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-calendar-date " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-calendar-date" viewBox="0 0 16 16">
               <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809
                     0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398
                     1.16 1.23z "/>
@@ -185,73 +181,73 @@
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z "/>
               <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z "/>
-            </svg> Tutor personalizado
+            </svg> Tutores personalizados
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z "/>
               <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255
                     1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z "/>
               <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z "/>
               <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z "/>
-            </svg> AGREGAR PRECIO/DESCUENTO
+            </svg> 6 cuotas de $8500.-
                             </div>
 
                             <div class="container text-center pt-3 ">
-                                <a href="# " class="btn btn-primary ">Ver curso</a>
+                                <a href="cursos.html" target="_blank" class="btn btn-primary ">Ver curso</a>
                             </div>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6 p-3">
+                <div class="col-sm-6 p-lg-5">
                     <div class="card ">
                         <div class="card-body ">
                             <h3 class="card-title ">Mecanica de Motos</h3>
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-calendar-date " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-calendar-date " viewBox="0 0 16 16 ">
               <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809
                     0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398
                     1.16 1.23z "/>
               <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z "/>
-            </svg> 6 meses - 3 clases semanales
+            </svg> 6 meses - 2 clases semanales
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z "/>
               <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z "/>
-            </svg> Tutor personalizado
+            </svg> Tutores personalizados
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z "/>
               <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255
                     1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z "/>
               <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z "/>
               <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z "/>
-            </svg> AGREGAR PRECIO/DESCUENTO
+            </svg> 6 cuotas de $8500.-
                             </div>
 
                             <div class="container text-center pt-3 ">
-                                <a href="# " class="btn btn-primary ">Ver curso</a>
+                                <a href="cursos motos.html" target="_blank" class="btn btn-primary ">Ver curso</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6 p-3">
+                <div class="col-sm-6 p-lg-5">
                     <div class="card ">
                         <div class="card-body ">
-                            <h3 class="card-title ">Mecanica de Autos2</h3>
+                            <h3 class="card-title ">Inyección electrónica</h3>
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-calendar-date " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-calendar-date " viewBox="0 0 16 16 ">
               <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809
                     0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398
                     1.16 1.23z "/>
@@ -260,35 +256,35 @@
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z "/>
               <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z "/>
-            </svg> Tutor personalizado
+            </svg> Tutores personalizados
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z "/>
               <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255
                     1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z "/>
               <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z "/>
               <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z "/>
-            </svg> AGREGAR PRECIO/DESCUENTO
+            </svg> 6 cuotas de $8500.-
                             </div>
 
                             <div class="container text-center pt-3 ">
-                                <a href="# " class="btn btn-primary ">Ver curso</a>
+                                <a href="cursos iny.html" target="_blank" class="btn btn-primary ">Ver curso</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6 p-3">
+                <div class="col-sm-6 p-lg-5">
                     <div class="card ">
                         <div class="card-body ">
-                            <h3 class="card-title ">Mecanica de Autos3</h3>
+                            <h3 class="card-title ">Electricidad automotriz</h3>
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-calendar-date " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-calendar-date " viewBox="0 0 16 16 ">
               <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809
                     0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398
                     1.16 1.23z "/>
@@ -297,23 +293,23 @@
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-person-check-fill " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z "/>
               <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z "/>
-            </svg> Tutor personalizado
+            </svg> Tutores personalizados
                             </div>
 
                             <div class="container align-content-start mb-2 ">
-                                <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="26" height="26" fill="currentColor " class="bi bi-cash-coin " viewBox="0 0 16 16 ">
               <path fill-rule="evenodd " d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z "/>
               <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255
                     1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z "/>
               <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z "/>
               <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z "/>
-            </svg> AGREGAR PRECIO/DESCUENTO
+            </svg> 6 cuotas de $8500.-
                             </div>
                             <div class="container text-center pt-3 ">
-                                <a href="# " class="btn btn-primary ">Ver curso</a>
+                                <a href="cursos elc.html" target="_blank" class="btn btn-primary ">Ver curso</a>
                             </div>
                         </div>
                     </div>
@@ -321,15 +317,52 @@
             </div>
         </div>
     </div>
-    <!--call to action-->
-    <section class="page-section bg-img text-black-50">
+    <!--maps-->
+    <section class="page-section text-black-50">
         <h3 class="text-muted text-center">Visitá el Instituto</h3>
         <hr class="divider my-4">
-        <div>
-            <img src="maps.jpg" class="img-fluid" alt="mapa institutomodena Lucio Salvadores 381, Eziza."></div>
-        <div class="container-fluid text-center px-0 mx-0">
-            <a class="btn btn-primary btn-xl" href="https://www.google.com/maps/place/Instituto+Modena/@-34.8464971,-58.516258,15.06z/data=!4m5!3m4!1s0x0:0x82f0e22cbb976238!8m2!3d-34.848309!4d-58.513489" target="_blank">Dónde estamos</a>
-        </div>
+        <div class="grid-maps">
+            <div class="container-ivjsx">
+                <iframe id="map" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/search?q=Instituto%20Modena%2C%20Lucio%20Salvadores%2C%20Ezeiza%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina&key=AIzaSyCNuPHanjj3oqissPQTWNOaIMM1rw6y8EQ"></iframe>
+            </div>
+            <div class="dir">
+                <div class="container-grid-dir">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                          </svg>
+                    </div>
+                    <div class="text-black-50 align-self-center">
+                        <a href="https://www.google.com/maps/dir//Instituto+Modena,+Lucio+Salvadores+381,+Ezeiza,+Provincia+de+Buenos+Aires/@-34.8483046,-58.5156777,17z/data=!4m16!1m6!3m5!1s0x95bcd1aaf9341009:0x82f0e22cbb976238!2sInstituto+Modena!8m2!3d-34.848309!4d-58.513489!4m8!1m0!1m5!1m1!1s0x95bcd1aaf9341009:0x82f0e22cbb976238!2m2!1d-58.513489!2d-34.848309!3e3"
+                            class="btn">
+                        Lucio Salvadores 381, Ezeiza, Provincia de Buenos Aires</a>
+                    </div>
+                </div>
+                <div class="container-grid-dir">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg>
+                    </div>
+                    <div class="horario align-self-center ">
+                        <p class="black"> Lunes a Viernes 10:00 - 19:00 <br> Sábados 9:00 - 13:00
+                        </p>
+                    </div>
+                </div>
+                <div class="container-grid-dir">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                          </svg>
+                    </div>
+                    <div class="align-self-center">
+                        <p class="btn text-center black pt-3">
+                            011 6217-3903
+                        </p>
+                    </div>
+                </div>
+            </div>
     </section>
     <!-- Inscribite-->
     <section class="page-section pt-0" id="inscribite">
@@ -343,7 +376,7 @@
             </div>
             <div class="container2">
                 <div class="col-4 col-sm-3 text-center mb-5 mb-lg-0">
-                    <a href="wa.link/ctbsnl" class="btn d-block">
+                    <a href="https:/wa.link/ctbsnl" target="_blank" class="btn d-block">
                         <svg xmlns=" http://www.w3.org/2000/svg" width="50" height="50" fill="gray" class="bi bi-whatsapp m-2" viewBox="0 0 16 16">
                         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573
                     6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729
@@ -355,7 +388,7 @@
                 </div>
 
                 <div class="col-4 col-sm-3 text-center mb-5 mb-lg-0 ">
-                    <a class="d-block btn " id="mail ">
+                    <a href="info@institutomodena.com" class="d-block btn" target="_blank" id="mail">
                         <i class="fas fa-envelope fa-3x mb-3 text-muted text-black-50 "></i>
                     </a>
                     <hr class="divider py-md-2 ">
@@ -363,9 +396,9 @@
                 </div>
             </div>
 
-            <div class="container2 ">
+            <div class="container2">
                 <div class="col-4 col-sm-3 text-center mb-5 mb-lg-0">
-                    <a class="d-block btn " href="info@institutomodena.com ">
+                    <a class="d-block btn" href="form-insc.html" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="gray" class="bi bi-pencil-square" viewBox="0 0 16 16">
                             <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
                             <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
@@ -377,7 +410,7 @@
                 </div>
 
                 <div class="col-4 col-sm-3 text-center mb-5 mb-lg-0 ">
-                    <a class="d-block btn " href="https://www.instagram.com/institutomodena/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="gray" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <a class="d-block btn " href="https:/www.instagram.com/institutomodena/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="gray" class="bi bi-instagram" viewBox="0 0 16 16">
                         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                       </svg>
                     </a>
@@ -390,25 +423,32 @@
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container">
-            <div class="small text-center text-muted">
-                Copyright &copy;
+            <div class="small text-center text-muted">Instituto Modena - Copyright &copy;
                 <!-- Este script agrega automaticamente la fecha / año -->
                 <!-- (credit: https://updateyourfooter.com/)-->
                 <script>
                     document.write(new Date().getFullYear());
                 </script>
-                - IvanDev.jsx - Full Stack Developer
+                -
+                <a href="https://www.instagram.com/ivandev.jsx/" target="_blank" class="text-black-50 px-1">IvanDev.jsx - Full Stack Developer <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg></a>
             </div>
         </div>
     </footer>
     <!-- Bootstrap JS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src=" https://code.jquery.com/jquery-3.5.1.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js "></script>
     <!-- tercer party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js "></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/Gmaps appi.js">
+    </script>
+    <!--Credenciales Gmaps-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNuPHanjj3oqissPQTWNOaIMM1rw6y8EQ&callback=initMap&libraries=&v=weekly" async></script>
 </body>
+<!---->
 
 </html>

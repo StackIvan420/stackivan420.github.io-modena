@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+div.container.content {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+div.grid-pago {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 8em;
+}
+
+div.container-L {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+}
+
+div.container-R {
+    border-left: 5px solid gray;
+}
+
+div.container-option {
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+}

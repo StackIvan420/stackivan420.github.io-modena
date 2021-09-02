@@ -30,6 +30,13 @@ div.container-R {
 
 div.container-option {
     display: grid;
+    align-items: center;
     justify-content: center;
     gap: 1em;
+    height: 7em;
+}
+
+p.met-pag {
+    font-size: 1.3em !important;
+    color: black;
 }

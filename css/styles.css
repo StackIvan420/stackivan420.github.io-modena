@@ -7,45 +7,51 @@ nav {
 }
 
 
-/*div.video {
-        display: flex;
+/*div video*/
+
+div.container.mt-3 {
+    color: green;
+}
+
+div.video {
+    height: 87vh;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    width: 99.99%;
+}
+
+@media (max-width:780px) {
+    header.masthead {
+        height: 45vh;
     }
-    
+}
+
+@media (max-width: 994px) {
     video {
         position: absolute;
         left: 0;
+        padding-top: 5rem;
         width: 99.99%;
     }
-    
-    @media (max-width:780px) {
-        header.masthead {
-            height: 45vh;
-        }
+    div.video {
+        height: 60vh;
     }
-    
-    @media (max-width: 994px) {
-        video {
-            position: absolute;
-            left: 0;
-            padding-top: 5rem;
-            width: 99.99%;
-        }
-        div.video {
-            height: 60vh;
-        }
+}
+
+@media (min-width:1000px) {
+    video {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 99.99%;
     }
-    
-    @media (min-width:1000px) {
-        video {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 99.99%;
-        }
-        header.masthead {
-            height: 45vh;
-        }
-    }*/
+}
+
+
+/*fin video*/
 
 div.container-logo {
     padding: 0;
@@ -125,22 +131,6 @@ div div.text-dark {
 
 section .page-section.bg-color.pt-2 {
     height: 100vh;
-}
-
-.card.mx-sm-3 {
-    width: 16rem;
-}
-
-@media (max-width:835px) {
-    .card.mx-sm-3 {
-        width: 12rem;
-    }
-}
-
-@media (max-width:650px) {
-    .card.mx-sm-3 {
-        display: none;
-    }
 }
 
 @media (max-width:650px) {

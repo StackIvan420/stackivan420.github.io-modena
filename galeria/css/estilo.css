@@ -1,0 +1,359 @@
+body {
+    height: 100%;
+    background: radial-gradient(#ffff, rgb(66, 66, 66));
+    /*background-image: url(../presets/fondo1.png);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+div.grid-left {
+    display: grid;
+    height: 10em;
+    width: 22em;
+    top: 40%;
+    gap: 1em;
+    grid-auto-columns: 4em 4em 4em;
+    position: fixed;
+    z-index: -1000;
+    align-items: center;
+}
+
+div.ico {
+    display: flex;
+    width: 22em;
+    height: 12em;
+    top: 37%;
+    right: 0;
+    position: fixed;
+    z-index: -1000;
+    align-items: center;
+}
+
+iframe.ico-r {
+    right: 0;
+    background: url(../galeria/Logo-Modena.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.grid-r {
+    width: 22em;
+    height: 2.5em;
+    background-color: #a92225;
+}
+
+.grid-w {
+    width: 22em;
+    height: 2.5em;
+    background-color: #ffff;
+}
+
+.grid-g {
+    width: 22em;
+    height: 2.5em;
+    background-color: #0d5533;
+}
+
+.contenedor-galeria {
+    width: 657px;
+    height: 502px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.contenedor-galeria-center {
+    width: 657px;
+    height: 502px;
+    position: absolute;
+    left: 50%;
+    top: 121.8%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.contenedor-galeria-down {
+    width: 657px;
+    height: 502px;
+    position: absolute;
+    left: 50%;
+    top: 193%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.contenedor-galeria-sub {
+    width: 657px;
+    height: 502px;
+    position: absolute;
+    left: 50%;
+    top: 270%;
+    padding-bottom: 5rem;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.img1 {
+    float: left;
+    width: 206px;
+    height: 298px;
+    background-image: url(../galeria/img1.jpg);
+    background-size: 150% 120%;
+    background-position: center;
+}
+
+.img2 {
+    float: right;
+    margin-right: 225px;
+    width: 214px;
+    height: 226px;
+    background-image: url(../galeria/img2.jpeg);
+    background-size: 170% 100%;
+    background-position: center;
+}
+
+.img3 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -226px;
+    width: 214px;
+    height: 329px;
+    background-image: url(../galeria/img3.jpg);
+    background-position: center;
+}
+
+.img4 {
+    float: left;
+    margin-right: 32px;
+    margin-top: 12px;
+    width: 206px;
+    height: 192px;
+    background-image: url(../galeria/img4.jpeg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img5 {
+    float: right;
+    margin-right: 225px;
+    margin-top: -264px;
+    width: 214px;
+    height: 264px;
+    background-image: url(../galeria/img5.jpg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img6 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -161px;
+    width: 214px;
+    height: 161px;
+    background-image: url(../galeria/img6.jpeg);
+    background-size: 120% 130%;
+    background-position: center;
+}
+
+.img7 {
+    float: left;
+    width: 206px;
+    height: 298px;
+    background-image: url(../galeria/img7.jpeg);
+    background-size: 150% 120%;
+    background-position: center;
+}
+
+.img8 {
+    float: right;
+    margin-right: 225px;
+    width: 214px;
+    height: 226px;
+    background-image: url(../galeria/img8.jpg);
+    background-size: 170% 100%;
+    background-position: center;
+}
+
+.img9 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -226px;
+    width: 214px;
+    height: 329px;
+    background-image: url(../galeria/img9.jpeg);
+    background-position: center;
+}
+
+.img10 {
+    float: left;
+    margin-right: 32px;
+    margin-top: 12px;
+    width: 206px;
+    height: 192px;
+    background-image: url(../galeria/img10.jpeg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img11 {
+    float: right;
+    margin-right: 225px;
+    margin-top: -264px;
+    width: 214px;
+    height: 264px;
+    background-image: url(../galeria/img11.jpg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img12 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -161px;
+    width: 214px;
+    height: 161px;
+    background-image: url(../galeria/img12.jpeg);
+    background-size: 120% 130%;
+    background-position: center;
+}
+
+.img13 {
+    float: left;
+    width: 206px;
+    height: 298px;
+    background-image: url(../galeria/img13.jpeg);
+    background-size: 150% 120%;
+    background-position: center;
+}
+
+.img14 {
+    float: right;
+    margin-right: 225px;
+    width: 214px;
+    height: 226px;
+    background-image: url(../galeria/img14.jpeg);
+    background-size: 170% 100%;
+    background-position: center;
+}
+
+.img15 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -226px;
+    width: 214px;
+    height: 329px;
+    background-image: url(../galeria/img15.jpeg);
+    background-position: center;
+}
+
+.img16 {
+    float: left;
+    margin-right: 32px;
+    margin-top: 12px;
+    width: 206px;
+    height: 192px;
+    background-image: url(../galeria/img16.jpeg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img17 {
+    float: right;
+    margin-right: 225px;
+    margin-top: -264px;
+    width: 214px;
+    height: 264px;
+    background-image: url(../galeria/img17.jpeg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img18 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -161px;
+    width: 214px;
+    height: 161px;
+    background-image: url(../galeria/img18.jpg);
+    background-size: 120% 130%;
+    background-position: center;
+}
+
+.img19 {
+    float: left;
+    width: 206px;
+    height: 298px;
+    background-image: url(../galeria/img19.jpeg);
+    background-size: 150% 120%;
+    background-position: center;
+}
+
+.img20 {
+    float: right;
+    margin-right: 225px;
+    width: 214px;
+    height: 226px;
+    background-image: url(../galeria/img20.jpeg);
+    background-size: 170% 100%;
+    background-position: center;
+}
+
+.img21 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -226px;
+    width: 214px;
+    height: 329px;
+    background-image: url(../galeria/img21.jpeg);
+    background-position: center;
+}
+
+.img22 {
+    float: left;
+    margin-right: 32px;
+    margin-top: 12px;
+    width: 206px;
+    height: 192px;
+    background-image: url(../galeria/img22.jpg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img23 {
+    float: right;
+    margin-right: 225px;
+    margin-top: -264px;
+    width: 214px;
+    height: 264px;
+    background-image: url(../galeria/img23.jpg);
+    background-size: 200% 100%;
+    background-position: center;
+}
+
+.img24 {
+    float: right;
+    margin-right: 0px;
+    margin-top: -161px;
+    width: 214px;
+    height: 161px;
+    background-image: url(../galeria/img24.jpg);
+    background-size: 120% 130%;
+    background-position: center;
+}
